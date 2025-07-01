@@ -15,7 +15,7 @@
       color: #333;
     }
     header {
-      background: linear-gradient(45deg, #007bff, #00c6ff);
+      background: linear-gradient(45deg, #b0bcca, #05c679);
       color: white;
       text-align: center;
       padding: 20px;
@@ -25,7 +25,7 @@
       margin-bottom: 10px;
     }
     nav {
-      background: #004080;
+      background: #5805be;
       display: flex;
       justify-content: center;
       gap: 25px;
@@ -35,7 +35,7 @@
     nav a {
       color: #fff;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: bold ;
       font-size: 16px;
     }
     .hero {
@@ -96,7 +96,7 @@
       margin-top: 10px;
     }
     footer {
-      background: #004080;
+      background: #08992e;
       color: white;
       text-align: center;
       padding: 15px;
@@ -131,15 +131,31 @@
   </div>
   <div class="booking-section">
     <h2>📝 বুকিং ফর্ম</h2>
-    <form>
-      <input type="text" placeholder="তোমার নাম লিখো" />
-      <input type="tel" placeholder="মোবাইল নাম্বার" />
-      <input type="text" placeholder="ঠিকানা" />
-      <input type="text" placeholder="ইভেন্ট এর নাম" />
-      <input type="text" placeholder="যেখান থেকে জয়েন করবে" />
-      <input type="number" placeholder="কতজন যাবে" />
-      <button type="submit">✅ বুকিং জানাও</button>
-    </form>
+    <form action="https://formspree.io/f/manjvaga" method="POST">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+  
+  <label for="phone">Phone:</label><br>
+  <input type="tel" id="phone" name="phone" placeholder="Your Phone" required><br><br>
+
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address" placeholder="Your Address" required><br><br>
+
+  <label for="event_name">Event Name:</label><br>
+  <input type="text" id="event_name" name="event_name" placeholder="Event Name" required><br><br>
+ 
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+  <label for="date">Booking Date:</label><br>
+  <input type="date" id="date" name="date" required><br><br>
+
+  <label for="number_of_person">Number of Person:</label><br>
+  <input type="number" id="number_of_person" name="number_of_person" placeholder="Number of Person"><br><br>
+
+  <button type="submit">Book Now</button>
+</form>
+
   </div>
   <div class="about">
     <h2>ℹ️ আমাদের সম্পর্কে</h2>
@@ -151,11 +167,13 @@
   <div class="contact">
     <h2>📞 যোগাযোগ</h2>
     <p>📱 ফোন: 01851618221</p>
-    <p>✉️ ইমেইল: trippo@example.com</p>
-    <p>📍 ঠিকানা: ঢাকা, বাংলাদেশ</p>
-  </div>
-  <footer>
+    <ter>
     © 2025 Trippo - Travel with Trust | Developed by Arafat Hossain
   </footer>
 </body>
-</html>
+</html>p>✉️ ইমেইল: trippo@example.com</p>
+    <p>📍 ঠিকানা: ঢাকা, বাংলাদেশ</p>
+  </div>
+  <footer>
+    <p>© 2025 Trippo - Travel with Trust | Developed by Arafat Hossain</p>
+</footer>
